@@ -1,0 +1,12 @@
+ *  Executing task in folder PROJECT: C:\Users\a2391\AppData\Local\Microsoft\WindowsApps\python.EXE tools/lab1.py simulate 
+
+RUN C:\iverilog\bin\iverilog.EXE -g2012 -Wall -I C:\Users\a2391\lab2_03_register\src -I C:\Users\a2391\lab2_03_register\sim -s tb_register_pair -o C:\Users\a2391\lab2_03_register\build\sim\run-3e231101792e473b820df51533f68df1\sim.vvp C:\Users\a2391\lab2_03_register\src\register_pair.v C:\Users\a2391\lab2_03_register\src\input_frontend.v C:\Users\a2391\lab2_03_register\src\lab2_register.v C:\Users\a2391\lab2_03_register\sim\tb_register_pair.sv
+
+RUN C:\iverilog\bin\vvp.EXE -N C:\Users\a2391\lab2_03_register\build\sim\run-3e231101792e473b820df51533f68df1\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+LAB2_PASS register_pair checks=7
+C:\Users\a2391\lab2_03_register\sim\tb_register_pair.sv:22: $finish called at 66000 (1ps)
+
+시뮬레이션 실행 완료. 진리표·자기검사·파형으로 회로의 정답 여부를 확인하세요.
+WAVE C:\Users\a2391\lab2_03_register\build\sim\wave.vcd
+ *  Terminal will be reused by tasks, press any key to closeit. 
